@@ -1,0 +1,4 @@
+
+
+[1117/113725.347:ERROR:settings.cc(319)] Settings magic is not 1129342067
+[0126/213605.254:ERROR:http_transport_win.cc(175)] WinHttpCrackUrl: The URL does not use a recognized protocol (0x2ee6)
