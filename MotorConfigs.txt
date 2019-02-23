@@ -1,0 +1,11 @@
+using namespace vex;
+vex::brain Brain;
+vex::motor Shooter (vex::PORT1, vex::gearSetting::ratio36_1,true);
+vex::motor DriveMotorLeft (vex::PORT3, vex::gearSetting::ratio18_1,false);
+vex::motor PickupBalls (vex::PORT4, vex::gearSetting::ratio18_1,false);
+vex::motor DriveMotorRight (vex::PORT5, vex::gearSetting::ratio18_1,false);
+vex::motor UpRamp (vex::PORT7, vex::gearSetting::ratio18_1,false);
+vex::motor IntakeMotor (vex::PORT9, vex::gearSetting::ratio18_1,false);
+vex::motor Shooter2 (vex::PORT10, vex::gearSetting::ratio36_1,false);
+vex::motor PickupTop (vex::PORT19, vex::gearSetting::ratio18_1,false);
+vex::controller Controller1;
